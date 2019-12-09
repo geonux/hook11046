@@ -1,0 +1,39 @@
+{
+	"identifier": "test",
+	"title": "desc desc desc",
+	"abstract": "desc desc desc",
+	"inputs": [{
+			"type": "string",
+			"identifier": "name",
+			"title": "Input name"
+		},
+		{
+			"type": "float",
+			"identifier": "count",
+			"title": "Allowed values",
+			"allowed_values": [
+				[0, 0.1, 1]
+			]
+		},
+		{
+			"type": "string",
+			"identifier": "with_enum",
+			"title": "Enums",
+			"allowed_values": ["one", "two", "three"]
+		},
+		{
+			"type": "bbox",
+			"identifier": "thebbox",
+			"title": "Extend",
+			"crss": ["EPSG:3857", "EPSG:4326"],
+			"min_occurs": 0
+		}
+	],
+	"outputs": [{
+		"type": "string",
+		"identifier": "response",
+		"title": "Output response"
+	}],
+	"store_supported": "True",
+	"status_supported": "True"
+}
