@@ -13,7 +13,7 @@ class SayHello(Process):
             identifier='say_hello',
             title='Process Say Hello',
             abstract='Returns a literal string output\
-             with Hello plus the inputed name',
+             with Hello plus the inputed name 15:22',
             version='1.3.3.7',
             inputs=inputs,
             outputs=outputs,
